@@ -1,0 +1,17 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+body{
+	height: 100vh;
+	position: center;
+	margin: auto;
+	background: linear-gradient( 109.6deg,  rgba(218,185,252,1) 11.2%, rgba(125,89,252,1) 91.1% );
+}
+.main{
+	color: white;
+	margin: 20px 20px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
