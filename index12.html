@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACM</title>
+	<link rel="stylesheet" href="st123.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+	<div class="menu">
+	<ul>
+		<li class="active"><a href="#" style="color: yellow;"><b>Home</b><i class="fa-solid fa-house"></i></a></li>
+		<li><a href="#" style="color:peachpuff;"><b>About us</b><i class="fa-solid fa-user"></i></a>
+			<div class="menu1">
+				<ul>
+					<li><a href="#">ACM</a></li>
+					<li><a href="#">ACM-W</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#" style="color:orange;"><b>Members</b></a>
+			<div class="menu2">
+				<ul>
+					<li><a href="#">ACM</a></li>
+					<li><a href="#">ACM-W</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#" style="color:bisque;"><b>Private events</b></a>
+			<div class="menu3">
+				<ul>
+					<li><a href="#">ACM</a></li>
+					<li><a href="#">ACM-W</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#"><b>Public events</b></a>
+			<div class="menu4">
+				<ul>
+					<li><a href="#">ACM</a></li>
+					<li><a href="#">ACM-W</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#"><b>Calender</b></a><i class="fa-solid fa-calendar-days"></i></li>
+		<li><a href="#"><b>Contact us</b></a></li>
+	</ul>
+	</div>
+	<div class="cont">
+		<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028__340.jpg" style="height: 700px width: 700px"></div>
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__340.jpg"></div>
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2016/11/15/07/58/return-1825515__340.jpg"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+		const swiper = new Swiper('.swiper', {
+			autoplay: {
+				delay:3000,
+				disableOnInteraction: false,
+			},
+  			loop: true,
+  			pagination: {
+    		el: '.swiper-pagination',
+    		clickable:true,
+  			},
+  			navigation: {
+    		nextEl: '.swiper-button-next',
+    		prevEl: '.swiper-button-prev',
+  			},
+		});
+	</script>
+	<script src="main.js"></script>
+</body>
+</html>
