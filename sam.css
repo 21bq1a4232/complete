@@ -1,0 +1,279 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+* main1 {
+	src: video.mp4;
+	width: auto;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+.main{
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-color: #333;
+	font-family: sans-serif;
+}
+.main a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.down{
+	float: left;
+	overflow: hidden;
+}
+.down .btn{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down:hover .btn {
+  background-color: red;
+}
+.down5{
+	float: left;
+	overflow: hidden;
+}
+.down5 .btn5{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down5:hover .btn5 {
+  background-color: red;
+}
+.down1{
+	float: left;
+	overflow: hidden;
+}
+.down1 .btn1{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down1:hover .btn1 {
+  background-color: red;
+}
+.down2{
+	float: left;
+	overflow: hidden;
+}
+.down2 .btn2{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down2:hover .btn2 {
+  background-color: red;
+}
+.down3{
+	float: left;
+	overflow: hidden;
+}
+.down3 .btn3{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down3:hover .btn3 {
+  background-color: red;
+}
+.down4{
+	float: left;
+	overflow: hidden;
+}
+.down4 .btn4{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.menu a:hover, .down4:hover .btn4 {
+  background-color: red;
+}
+.downbtn {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border: 3px solid #73AD21;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.downbtn a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.downbtn a:hover {
+  background-color: #ddd;
+} 
+.down:hover .downbtn {
+  display: block;
+}
+.downbtn1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border: 3px solid #73AD21;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.downbtn1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.downbtn1 a:hover {
+  background-color: #ddd;
+} 
+.down1:hover .downbtn1 {
+  display: block;
+}
+.downbtn2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border: 3px solid #73AD21;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.downbtn2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.downbtn2 a:hover {
+  background-color: #ddd;
+} 
+.down2:hover .downbtn2 {
+  display: block;
+}
+.downbtn3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border: 3px solid #73AD21;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.downbtn3 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.downbtn3 a:hover {
+  background-color: #ddd;
+} 
+.down3:hover .downbtn3 {
+  display: block;
+}
+.cont{
+	width: 100%;
+	top: 150px;
+	height: 100px;
+	background:transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	filter: drop-shadow(5px 3px 8px black);
+	animation: FadeInUp 10s;
+}
+.swiper{
+	width: 540px;
+	top:100px;
+	height:250px;
+	bottom: 200px;
+	background-size: cover;
+}
+.swiper-slide img{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+	color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+	background: #fff;
+}
