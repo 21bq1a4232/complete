@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+.navigation{
+	padding: 35px 0px;
+	background: seagreen;
+	width: 85%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-between;
+}
+.navigation ul li{
+	list-style: none;
+	padding: 0px 65px;
+	display: inline-block;
+	position: relative;
+}
+.navigation ul li a{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.navigation ul li ::after{
+	content: '';
+	height: 2px;
+	width: 0px;
+	background: hotpink;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 1s;
+	Sand Tan: #e1b382;
+	Sand Tan Shadow: #c89666;
+
+	Night Blue: #2d545e;
+
+	Night Blue Shadow: #12343b;
+}
+.navigation ul li :hover::after{
+	width: 100%;
+}
+.main1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 1600px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.main1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
