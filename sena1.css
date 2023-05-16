@@ -1,0 +1,11 @@
+*{
+	margin:auto;
+}
+.main{
+	color: #fff;
+	filter: drop-shadow(1px 1px 2px grey);
+}
+.main .h1{
+	font-style: italic;
+	color: darkred;
+}
