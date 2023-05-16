@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SAMPLE</title>
+	<link rel="stylesheet" type="text/css" href="sam.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+	<div class="main">
+		<div class="down5">
+			<button class="btn5"><b>Home&nbsp</b><i class="fa fa-home"></i></button>
+		</div>
+		<div class="down">
+			<button class="btn"><b>About us&nbsp</b><i class="fa fa-caret-down"></i></button>
+			<div class="downbtn">
+				<a  href="https://acm.vvitguntur.com/about-us/acm-team/2021-22">ACM</a>
+				<a href="https://acm.vvitguntur.com/about-us/acm-general/2021-22">ACM-W</a>
+			</div>
+		</div>
+		<div class="down1">
+			<button class="btn1"><b>Members&nbsp</b><i class="fa fa-caret-down"></i></button>
+			<div class="downbtn1">
+				<a href="https://acm.vvitguntur.com/members/acm-general/2021-22">ACM</a>
+				<a href="https://acm.vvitguntur.com/members/acm-w/2019-20">ACM-W</a>
+			</div>
+		</div>
+		<div class="down2">
+			<button class="btn2"><b>Public Events&nbsp</b><i class="fa fa-caret-down"></i></button>
+			<div class="downbtn2">
+				<a href="https://acm.vvitguntur.com/public-activities/about-spardha">ACM</a>
+				<a href="https://acm.vvitguntur.com/public-activities/aavega-engg">ACM-W</a>
+			</div>
+		</div>
+		<div class="down3">
+			<button class="btn3"><b>Private Events&nbsp</b><i class="fa fa-caret-down"></i></button>
+			<div class="downbtn3">
+				<a href="https://acm.vvitguntur.com/activities/acm-activities/2021-22">ACM</a>
+				<a href="https://acm.vvitguntur.com/activities/acm-w-activities/2019-20">ACM-W</a>
+			</div>
+		</div>
+		<div class="down4">
+			<button class="btn4"><b>Calender</b></button>
+			<div class="downbtn4">
+				<a href="https://acm.vvitguntur.com/acm-calendar/acm/2017-18/spardha2022"></a>
+		</div>
+	</div>
+	<div class="cont">
+		<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028__340.jpg"	></div>
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615__340.jpg"></div>
+    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2016/11/15/07/58/return-1825515__340.jpg"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script type="text/javascript" width>
+		const swiper = new Swiper('.swiper', {
+			autoplay: {
+				delay:1000,
+				disableOnInteraction: false,
+			},
+  			loop: true,
+  			pagination: {
+    		el: '.swiper-pagination',
+    		clickable:true,
+  			},
+  			navigation: {
+    		nextEl: '.swiper-button-next',
+    		prevEl: '.swiper-button-prev',
+  			},
+		});
+	</script>
+	<div class="main1">
+		<video autoplay loop muted plays-inline class="back" width="100%" heoight="auto">
+			<source src="https://player.vimeo.com/external/368789132.sd.mp4?s=90efbe5a51f1331fd9b4ef2851928ddaefee2023&profile_id=164&oauth2_token_id=57447761" type="video/mp4"></video>
+		</video>
+</div>
+</body>
+</html>
