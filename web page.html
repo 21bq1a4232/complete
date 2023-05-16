@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEB FORM</title>
+	<style>
+		body{
+			background-image: url('allu.jpg');
+		}
+	</style>
+	<script>
+		function Google() {
+			const downloadFile = () => {
+			const link = document.createElement("a");
+			const file = new Blob([content],{type:'text/plain'});
+			link.href = URL.createObjectUR(file);
+			link.download = 'sample.txt';
+			link.click();
+			URL.revokeObjectURl(link.href);
+			}
+		}
+	</script>
+</head>
+<header>
+	<script type="text/javascript"></script>
+</header>
+<body>	
+	<h1 align="center" style="color: darkblue;">WEB FORM</h1>
+	<form name="Web form"></form>
+	<table>
+		<tr>
+		<td><b>Name:</b></td>
+		<td><input type="text" name="username"></td></tr>
+		<tr>
+		<td style="color: ;"><i>contact number:</i></td>
+		<td><input type="integer" name="contact number"></td></tr>
+		<tr>
+		<td><b>address:</b></td>
+		<td><input width="15" height="15" name="address"></td></tr>
+		<tr>
+			<td><i>E-mail:</i></td>
+			<td><input type="Email" name="E-mail"></td>
+		</tr>
+		<tr>
+			<td>
+				<b>ssc percentage:</b>
+			</td>
+			<td><input type="percentage" name="ssc percentage"></td><td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i>place of study:</i></td><td><input type="text" name="poc"></td>
+		</tr>
+		<tr>
+			<td>+2 percentage:</td><td><input type="percentage" name="percentage"></td>
+			<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspplace of study</td><td><input type="text" name="pos"></td>
+		</tr>
+		<tr><td>Graduation:</td><td>
+                <select name="cllg name" id="">
+                	<option value="----">----</option>
+                    <option value="IIT">Yes</option>
+                    <option value="IIIT">NO</option>
+                </select>
+                <td>If not graduated</td><td>Year:<input type="text" name="poc"></td>
+            </td></tr>
+            <tr>
+            	<td>Adhaar number:<input type="text" name="poc"></td>
+            </tr>
+		<tr>
+			<td>Area of interest:</td>
+			<td><select name="cllg name" id="">
+					<option value="none">---</option>
+                    <option value="Sports">Cricket</option>
+                    <option value="flirting">flirting</option>
+                    <option value="reading">Book reading</option>
+                    <option value="tv">Watching tv</option>
+                </select></td>
+		</tr>
+		<tr><td><label for="" name="lb1">Gender:</label></td></tr><td>
+        <input type="radio" name="Gender" values="male">Male</input>
+        <input type="radio" name="Gender" value="female">Female</input>
+        <input type="radio" name="Gender" value="others">Others</input>
+            </td>
+         <tr>
+         	<td>
+        <button type="button" onclick="Google()">Register now quickly</button>
+    </td>
+</tr>
+	</table>
+</body>
+</html>
