@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JAVASCRIPT EXAMPLE</title>
+	<script type="text/javascript">
+		function display(){
+			var data;
+			data = document.f1.t.value;
+			window.alert(data);
+		}
+	</script>
+</head>
+<body>
+	<p>Java Script Example</p>
+	<form name="f1" onclick="display()">
+		<table align="center" border="0">
+		<td>UserName </td>
+		<td><input type="text" name="UserName"></td>
+		<tr>
+		<td>Email </td>
+		<td><input type="Email" name="Email"></td></tr>
+		<tr>
+			<td>Phone Number</td>
+			<td><input type="Phone" name="Phone number"></td>
+		</tr>
+		<tr>
+			<td>Date of Birth</td>
+			<td><input type="Date" name="dob"></td>
+		</tr>
+		<tr>
+		<td>Address</td>
+		<td><textarea name="Address" rows=5 cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				Male <input type="radio" name="Gender"> 
+				Female<input type="radio" name="Gender">
+				others<input type="radio" name="Gender">
+			</td>
+
+		</tr>
+		<tr>
+			<td>languages known</td>
+			<td>Telugu<input type="checkBox" name="Telugu">
+				English<input type="checkBox" name="English">
+				Hindi<input type="checkBox" name="Hindi">
+			</td>
+		</tr>
+		<tr><td></td>
+			<td>
+				<input type="Submit" name="Rg" value="Registor">
+				<input type="reset" name="res" value="Clear">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
