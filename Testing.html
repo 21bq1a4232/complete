@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url('2743.JPG');
+			background-size: 350px;
+		}
+	</style>
+	<script>
+		function parameters(){
+			a = prompt("enter the side to find the area of the triangle:");
+			b = prompt("enter the side to find the area of the triangle:");
+			c = prompt("enter the side to find the area of the triangle:");
+			s=(a+b+c)/2;
+			area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+			window.alert(area);
+		}
+	</script>
+	<title>BMS</title>
+</head>
+<body>
+	<h1 style="color: blue;">If you want to find the area of the triangle..</h1>
+	<button type="button" onclick="parameters()">click me</button>
+</body>
+</html>
