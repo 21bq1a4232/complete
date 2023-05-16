@@ -1,0 +1,68 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="index-css.css">
+<!--- coursel plug-in for the banner --->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<nav>
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a>
+      <ul class="sub-menu">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Mission & Vision</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Services</a>
+      <ul class="sub-menu">
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Content Writing</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+
+  <style type="text/css">
+    .banner {
+      width: 800px;
+      height: 400px;
+      margin: 0 auto;
+    }
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+<body>
+  <div class="banner">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.banner').slick({
+        autoplay: true,
+        autoplaySpeed: 3000, // 3 seconds per slide
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 50,
+        fade: true,
+        cssEase: 'linear',
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+</html>
